@@ -1,0 +1,15 @@
+[Security]
+EAP-Method=TTLS
+EAP-Identity=anonymous@fer.hr
+EAP-TTLS-CACert=/etc/iwd/eduroam.pem
+EAP-TTLS-ServerDomainMask=freeradius.fer.hr
+EAP-TTLS-Phase2-Method=Tunneled-PAP
+
+# Vlastito korisničko ime
+EAP-TTLS-Phase2-Identity=fer_korisnicko_ime@fer.hr
+
+# Vlastita lozinka
+EAP-TTLS-Phase2-Password=fer_lozinka
+
+[Settings]
+AutoConnect=true
